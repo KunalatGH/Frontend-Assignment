@@ -22,6 +22,58 @@ The components are built with **modern practices** such as Storybook for UI docu
 
 ---
 
+## 📌 Components & Screenshots
+
+### 1. DataTable Component
+
+The `DataTable` component supports multiple states such as default, loading, editable, and selectable.
+
+- **Default State**  
+  ![DataTable Default State](./docs/screenshots/DataTable/DefaultState.png)
+
+- **Columns View**  
+  ![DataTable Columns](./docs/screenshots/DataTable/Columns.png)
+
+- **Data View**  
+  ![DataTable Data](./docs/screenshots/DataTable/Data.png)
+
+- **Loading State**  
+  ![DataTable Loading](./docs/screenshots/DataTable/LoadingState.png)
+
+- **Editable State**  
+  ![DataTable Edit State](./docs/screenshots/DataTable/EditState.png)
+
+- **Selectable Rows**  
+  ![DataTable Selectable](./docs/screenshots/DataTable/Selectable.png)
+
+---
+
+### 2. InputField Component
+
+The `InputField` component supports multiple variants and validation states.
+
+- **Default Input State**  
+  ![Default Input](./docs/screenshots/InputField/Default_Input_State.png)
+
+- **Disabled Input**  
+  ![Disabled Input](./docs/screenshots/InputField/Disabled_State.png)
+
+- **Invalid Input**  
+  ![Invalid Input](./docs/screenshots/InputField/Invalid_State.png)
+
+- **Variant Styles**  
+  ![Variant Input](./docs/screenshots/InputField/Variant_State.png)
+
+---
+
+## 📌 Storybook & Chromatic
+
+- **Storybook** was used for isolated component development and testing.  
+- **Chromatic** was used for visual regression testing and component deployment.  
+
+
+---
+
 ## 🚀 Live Storybook Preview
 
 The project is deployed on **Chromatic**.  
