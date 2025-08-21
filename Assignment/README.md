@@ -27,6 +27,16 @@ The components are built with **modern practices** such as Storybook for UI docu
 The project is deployed on **Chromatic**.  
 👉 [View Storybook on Chromatic](https://68a73ea3da944f2ba8bfa316-nvxrowlypz.chromatic.com/)
 
+## 🚀 Our Approach
+
+This UI component library was built using a modern, scalable, and type-safe stack. The core philosophy was **Component-Driven Development**, where each component is developed and tested in isolation to ensure reusability and maintainability.
+
+-   **Component Design:** Components are built as controlled components with a clear props API, making them flexible and easy to integrate.
+-   **Styling:** We used **TailwindCSS** for a utility-first styling approach, ensuring design consistency and maintainability. Component variants and states were managed using the **`cva`** library for clean and scalable style logic.
+-   **Type Safety:** **TypeScript** is used across the entire project to provide strict typing for all props and state, reducing bugs and improving the developer experience. The `DataTable` leverages generics for maximum flexibility with any data source.
+-   **Documentation:** **Storybook** serves as a living documentation and an interactive development environment, showcasing every component state and variant.
+-   **Accessibility:** We prioritized accessibility by using semantic HTML and appropriate ARIA attributes to ensure the components are usable by everyone.
+
 ---
 
 ## 🛠️ Tech Stack
